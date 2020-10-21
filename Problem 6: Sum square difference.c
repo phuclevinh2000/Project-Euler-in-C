@@ -5,6 +5,8 @@
 int main(void)
 {
 	float SumSquares, SumNatural, Out;
+	
+	//note: must haave .0 for floating number
 	SumSquares = (100.0 / 6) * (100.0 + 1) * (2 * 100.0 + 1);
 	SumNatural = 100 * (2 * 1 + (100 - 1) * 1) / 2;
 	SumNatural = pow(SumNatural, 2);
